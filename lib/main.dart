@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(MaterialApp(
+  runApp(const MaterialApp(
     home: Task2(),
   ));
 }
@@ -13,19 +13,19 @@ class Task2 extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Center(
+        title: const Center(
           child: Text(
             'Task2',
           ),
         ),
       ),
       body: Container(
-        margin: EdgeInsets.all(5),
-        padding: EdgeInsets.all(5),
+        margin: const EdgeInsets.all(5),
+        padding: const EdgeInsets.all(5),
         child: Column(
           children: [
             Container(
-              margin: EdgeInsets.all(10),
+              margin: const EdgeInsets.all(10),
               decoration: BoxDecoration(
                 color: Colors.green,
                 borderRadius: BorderRadius.circular(20),
@@ -33,16 +33,16 @@ class Task2 extends StatelessWidget {
               child: Row(
                 children: [
                   Container(
-                    margin: EdgeInsets.all(20),
-                    padding: EdgeInsets.all(10),
-                    decoration: BoxDecoration(
+                    margin: const EdgeInsets.all(20),
+                    padding: const EdgeInsets.all(10),
+                    decoration: const BoxDecoration(
                         color: Colors.black, shape: BoxShape.circle),
-                    child: Icon(
+                    child: const Icon(
                       Icons.check,
                       color: Colors.white,
                     ),
                   ),
-                  Text(
+                  const Text(
                     'Surveys',
                     style: TextStyle(fontSize: 20, color: Colors.white),
                   ),
@@ -50,7 +50,7 @@ class Task2 extends StatelessWidget {
               ),
             ),
             Container(
-              margin: EdgeInsets.all(10),
+              margin: const EdgeInsets.all(10),
               decoration: BoxDecoration(
                 color: Colors.green,
                 borderRadius: BorderRadius.circular(20),
@@ -58,16 +58,16 @@ class Task2 extends StatelessWidget {
               child: Row(
                 children: [
                   Container(
-                    margin: EdgeInsets.all(20),
-                    padding: EdgeInsets.all(10),
-                    decoration: BoxDecoration(
+                    margin: const EdgeInsets.all(20),
+                    padding: const EdgeInsets.all(10),
+                    decoration: const BoxDecoration(
                         color: Colors.black, shape: BoxShape.circle),
-                    child: Icon(
+                    child: const Icon(
                       Icons.check,
                       color: Colors.white,
                     ),
                   ),
-                  Text(
+                  const Text(
                     'Daily Surveys',
                     style: TextStyle(fontSize: 20, color: Colors.white),
                   ),
@@ -75,7 +75,7 @@ class Task2 extends StatelessWidget {
               ),
             ),
             Container(
-              margin: EdgeInsets.all(10),
+              margin: const EdgeInsets.all(10),
               decoration: BoxDecoration(
                 color: Colors.green,
                 borderRadius: BorderRadius.circular(20),
@@ -83,16 +83,16 @@ class Task2 extends StatelessWidget {
               child: Row(
                 children: [
                   Container(
-                    margin: EdgeInsets.all(20),
-                    padding: EdgeInsets.all(10),
-                    decoration: BoxDecoration(
+                    margin: const EdgeInsets.all(20),
+                    padding: const EdgeInsets.all(10),
+                    decoration: const BoxDecoration(
                         color: Colors.black, shape: BoxShape.circle),
-                    child: Icon(
+                    child: const Icon(
                       Icons.check,
                       color: Colors.white,
                     ),
                   ),
-                  Text(
+                  const Text(
                     "Zapper's Rewards",
                     style: TextStyle(fontSize: 20, color: Colors.white),
                   ),
@@ -100,7 +100,7 @@ class Task2 extends StatelessWidget {
               ),
             ),
             Container(
-              margin: EdgeInsets.all(10),
+              margin: const EdgeInsets.all(10),
               decoration: BoxDecoration(
                 color: Colors.green,
                 borderRadius: BorderRadius.circular(20),
@@ -108,16 +108,16 @@ class Task2 extends StatelessWidget {
               child: Row(
                 children: [
                   Container(
-                    margin: EdgeInsets.all(20),
-                    padding: EdgeInsets.all(10),
-                    decoration: BoxDecoration(
+                    margin: const EdgeInsets.all(20),
+                    padding: const EdgeInsets.all(10),
+                    decoration: const BoxDecoration(
                         color: Colors.black, shape: BoxShape.circle),
-                    child: Icon(
+                    child: const Icon(
                       Icons.check,
                       color: Colors.white,
                     ),
                   ),
-                  Text(
+                  const Text(
                     'Referrals',
                     style: TextStyle(fontSize: 20, color: Colors.white),
                   ),
@@ -125,7 +125,7 @@ class Task2 extends StatelessWidget {
               ),
             ),
             Container(
-              margin: EdgeInsets.all(10),
+              margin: const EdgeInsets.all(10),
               decoration: BoxDecoration(
                 color: Colors.green,
                 borderRadius: BorderRadius.circular(20),
@@ -133,28 +133,28 @@ class Task2 extends StatelessWidget {
               child: Row(
                 children: [
                   Container(
-                    margin: EdgeInsets.all(20),
-                    padding: EdgeInsets.all(10),
-                    decoration: BoxDecoration(
+                    margin: const EdgeInsets.all(20),
+                    padding: const EdgeInsets.all(10),
+                    decoration: const BoxDecoration(
                         color: Colors.black, shape: BoxShape.circle),
-                    child: Icon(
+                    child: const Icon(
                       Icons.check,
                       color: Colors.white,
                     ),
                   ),
-                  Text(
+                  const Text(
                     'Daily Check In',
                     style: TextStyle(fontSize: 20, color: Colors.white),
                   ),
                 ],
               ),
             ),
-            Text(
+            const Text(
               textAlign: TextAlign.center,
               'These are all ways you can earn in Zap Surveys!',
               style: TextStyle(fontSize: 20),
             ),
-            Text(
+            const Text(
               textAlign: TextAlign.center,
               'Our #1 tip for new Zappers is to make sure to at least complete your Daily Survey every day to maximize earnings',
               style: TextStyle(fontSize: 20),
